@@ -15,17 +15,20 @@ A Flutter app for listing services with:
    git clone https://github.com/riya-agrawal19/hoora_service_listing.git
    cd hoora_service_listing
 2. Install dependencies
+   ```bash
    flutter pub get
 3. Run the app
+   ```bash
    flutter run
 
  ## Running Tests
 
-Widget Tests
-flutter test test/widget/
+1. Widget Tests
+   ```bash
+   flutter test test/widget/
 
-Integration Tests
-Make sure a simulator/emulator is running, then:
-
-flutter test integration_test/favorite_persistence_test.dart
-flutter test integration_test/pagination_scroll_test.dart
+3. Integration Tests
+   Make sure a simulator/emulator is running, then:
+   ```bash
+   flutter test integration_test/favorite_persistence_test.dart
+   flutter test integration_test/pagination_scroll_test.dart

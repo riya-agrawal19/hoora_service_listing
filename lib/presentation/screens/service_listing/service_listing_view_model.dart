@@ -35,7 +35,6 @@ class ServiceListingViewModel extends BaseViewModel<ServiceListingView> {
   // Overlay loader
   late OverlayEntry loader;
 
-  /// Called from the widget after first frame
   Future<void> initAfterLoad() async {
     view?.showLoader();
     _attachBottomListener();
